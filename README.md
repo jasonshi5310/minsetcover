@@ -1,5 +1,5 @@
 # minsetcover
-Implementation of minset cover in Java. This is an homework for CSE 373 in Stony Brook University.
+Implementation of minset cover in Java. This is a homework for CSE 373 in Stony Brook University.
 
 I used backtracking algorithm in this homework to exhaustively find all possible solutions and determine the best one. To get a working program is easy but an efficient one is hard. The hardest part I think is pruning, trying to avoid as much unnecessary backtracking as possible.
 
@@ -14,25 +14,25 @@ If there’re more elements than subsets, and the elements are more than 200, I 
 The time for running the samples are either less than 5 seconds or more than a minute. For the k files, I have all the way to s-k-50-100. For rg files. I can run up to s-rg-245-50 and s-rg-245-50 seems to give me correct answer; but for s-rg-197-45 and s-rg-155-40 the program gives incorrect answers if I filled in with none-overlaps subsets first, while the running time exceed 1 minute if I directly apply a backtracking search by element list, although correct answer can be found that way. So, I didn’t include 197-45 and 155-40 in the report.  
 
 
-s-k File Name	MSC		s-rg File name	MSC
+s-k File Name	    MSC		s-rg File name	  MSC
 
-20-30	6		8-10	4
+    20-30	         6		    8-10	         4
 
-20-35	6		31-15	9
+    20-35	         6		    31-15          9
 
-30-50	9		40-20	10
+    30-50	         9		    40-20        	10
 
-30-55	9		63-25	16
+    30-55	         9		   63-25	        16
 
-35-65	10		109-35	22
+    35-65	         10		   109-35         22
 
-40-60	14		118-30	20
+    40-60       	14		   118-30	       20
 
-40-80	9		245-50	35
+    40-80	         9		   245-50	       35
 
-50-95	12		 	 
+    50-95	        12		 	 
 
-50-100	9			
+    50-100	      9			
 
 And for s-X-12-6 the MSC is 3.
 
