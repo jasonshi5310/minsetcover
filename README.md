@@ -1,5 +1,5 @@
 # minsetcover
-Implementation of minset cover in Java
+Implementation of minset cover in Java. This is an homework for CSE 373 in Stony Brook University.
 
 I used backtracking algorithm in this homework to exhaustively find all possible solutions and determine the best one. To get a working program is easy but an efficient one is hard. The hardest part I think is pruning, trying to avoid as much unnecessary backtracking as possible.
 
