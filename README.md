@@ -14,7 +14,7 @@ If there’re more elements than subsets, and the elements are more than 200, I 
 The time for running the samples are either less than 5 seconds or more than a minute. For the k files, I have all the way to s-k-50-100. For rg files. I can run up to s-rg-245-50 and s-rg-245-50 seems to give me correct answer; but for s-rg-197-45 and s-rg-155-40 the program gives incorrect answers if I filled in with none-overlaps subsets first, while the running time exceed 1 minute if I directly apply a backtracking search by element list, although correct answer can be found that way. So, I didn’t include 197-45 and 155-40 in the report.  
 
 
-s-k File Name	    MSC		s-rg File name	  MSC
+s-k File Name     /	    MSC	  | 	s-rg File name	/  MSC
 
     20-30	         6		    8-10	         4
 
